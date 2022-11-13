@@ -1,5 +1,6 @@
 local games = {
     [{1296881293}] = "https://raw.githubusercontent.com/nxtcapi/iceware/main/games/belfast",
+    [{155615604}] = "https://raw.githubusercontent.com/nxtcapi/iceware/main/games/prisonlife",
 
 }
 
