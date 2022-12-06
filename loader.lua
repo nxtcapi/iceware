@@ -1,5 +1,3 @@
--- forked from vynixius
-
 local games = {
     [{1296881293}] = "https://raw.githubusercontent.com/nxtcapi/iceware/main/games/belfast",
     [{11330149751}] = "https://raw.githubusercontent.com/nxtcapi/iceware/main/games/scamcallgame",
