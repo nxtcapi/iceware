@@ -1,1 +1,8 @@
-loadstring(game:HttpGet("https://scripts.luawl.com/0001/IceWareScamgame.lua",true))()
+local key = loadstring(game:HttpGet("https://raw.githubusercontent.com/nxtcapi/iceware/main/keysys"))()
+
+key:MakeUI({
+  Title = "🧊 | IceWare",
+  KeyLinkName = "IceWare",
+  DiscordID = "XbvG8xQMsM",
+  ScriptLink = "https://scripts.luawl.com/0001/IceWareScamgame.lua"
+})
