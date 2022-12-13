@@ -3,6 +3,6 @@ local key = loadstring(game:HttpGet("https://raw.githubusercontent.com/nxtcapi/i
 key:MakeUI({
   Title = "🧊 | IceWare",
   KeyLinkName = "IceWare",
-  DiscordID = "XbvG8xQMsM",
+  DiscordID = "4aYJfXJkeH",
   ScriptLink = "https://scripts.luawl.com/0001/IceWareScamgame.lua"
 })
