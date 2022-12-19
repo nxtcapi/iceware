@@ -11,7 +11,7 @@ local uneverseId = game.GameId
 
 local notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/HoyoGey/My-Lua-Project/main/UiLibs/NotifyLib.lua"))()
 
-local KeyUI = game:GetObjects("rbxassetid://11866162293")[1]
+local KeyUI = game:GetObjects("rbxassetid://11866185320")[1]
 
 if gethui then
     KeyUI.Parent = gethui()
