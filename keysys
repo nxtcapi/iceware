@@ -1,3 +1,6 @@
+
+local KeyUI = game:GetObjects("rbxassetid://11826300129")[1]
+
 local Keysys = {}
 
 local UserInputService = game:GetService("UserInputService")
@@ -11,7 +14,7 @@ local uneverseId = game.GameId
 
 local notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/HoyoGey/My-Lua-Project/main/UiLibs/NotifyLib.lua"))()
 
-local KeyUI = game:GetObjects("rbxassetid://11866185320")[1]
+local KeyUI = game:GetObjects("rbxassetid://11826300129")[1]
 
 if gethui then
     KeyUI.Parent = gethui()
@@ -28,7 +31,7 @@ local KeyMain = KeyUI.Main
 
 function Keysys:MakeUI(KeySettings)
     -- Title, KeyLink, DiscordLink, ScriptLink
-    KeyMain.Size = UDim2.new(0, 500, 440, )
+    KeyMain.Size = UDim2.new(0, 467, 0, 175)
     KeyMain.BackgroundTransparency = 1
     KeyMain.Shadow.Image.ImageTransparency = 1
     KeyMain.Title.TextTransparency = 1
@@ -79,7 +82,7 @@ function Keysys:MakeUI(KeySettings)
 
     -- open ui
     TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), { BackgroundTransparency = 0 }):Play()
-    TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), { Size = UDim2.new(0, 500, 0, 440) }):Play()
+    TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), { Size = UDim2.new(0, 500, 0, 187) }):Play()
     TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Quint), { ImageTransparency = 0.5 }):
         Play()
     wait(0.05)
