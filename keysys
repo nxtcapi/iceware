@@ -28,7 +28,7 @@ local KeyMain = KeyUI.Main
 
 function Keysys:MakeUI(KeySettings)
     -- Title, KeyLink, DiscordLink, ScriptLink
-    KeyMain.Size = UDim2.new(0, 467, 0, 175)
+    KeyMain.Size = UDim2.new(0, 500, 440, )
     KeyMain.BackgroundTransparency = 1
     KeyMain.Shadow.Image.ImageTransparency = 1
     KeyMain.Title.TextTransparency = 1
